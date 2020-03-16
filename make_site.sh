@@ -22,5 +22,5 @@ echo "Cam3 Make Record Index..." && cd /nas_a2/3629cam3/C1_00626E82585D/record &
 
 echo "Cam4 Move JPEGs..." && cd /nas_a2/3629cam4 && /home/michael/move_cam4_jpeg.sh
 echo "Cam4 Get MP4s..." && cd /nas_a2/3629cam4 && /home/michael/get_cam4_mp4.sh
-echo "Cam4 Make Galleries..." && cd /nas_a2/3629cam4 && sg www-data -c /home/michael/make_galleries.sh
+echo "Cam4 Make Galleries..." && cd /nas_a2/3629cam4 && /home/michael/make_galleries.sh
 echo "Cam4 Make Index..." && cd /nas_a2/3629cam4 && /home/michael/make_index.sh
