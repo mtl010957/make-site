@@ -2,6 +2,7 @@
 
 export cam=`pwd | awk -F/ '{ print $3 }'`
 export type=`pwd | awk -F/ '{ print $5 }'`
+export date=`date`
 
 echo "${cam} ${type} Header..."
 
@@ -12,6 +13,7 @@ cat <<EOH > index.html
 </head>
 <body>
 <h1>${cam} ${type}</h1>
+<h3>Last Update: ${date}</h3>
 <ul>
 EOH
 
