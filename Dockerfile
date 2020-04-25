@@ -1,6 +1,6 @@
 FROM debian:latest
 
-WORKDIR /home/michael
+WORKDIR /home/pi
 
 RUN \
   apt-get update && \
@@ -13,4 +13,4 @@ RUN \
 
 COPY . .
 
-CMD [ "/home/michael/make_site.sh" ]
+CMD [ "/home/pi/make_site.sh" ]
