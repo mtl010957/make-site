@@ -13,4 +13,4 @@ RUN \
 
 COPY . .
 
-CMD [ "/home/pi/make_site.sh" ]
+CMD [ "/home/pi/run.sh" ]
