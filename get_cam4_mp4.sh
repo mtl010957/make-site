@@ -5,7 +5,10 @@
 now=`date +%s`
 echo $now
 last_dirname=`ls -rtd 20?????? | tail -1`
-before=`date --date=${last_dirname} +%s`
+echo $last_dirname
+last_dirname_as_date="${last_dirname:0:4}-${last_dirname:4:2}-${last_dirname:6:2}"
+echo $last_dirname_as_date
+before=`date --date=${last_dirname_as_date} +%s`
 #before=`expr $now - 86400`
 echo $before
 

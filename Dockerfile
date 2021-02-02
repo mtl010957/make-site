@@ -7,10 +7,10 @@ RUN \
   apk update
   
 RUN apk add x264
-RUN apk add ffmpeg
-RUN apk add imagemagick
 RUN apk add jhead@edge 
 RUN apk add nfs-utils
+#RUN apk add ffmpeg
+#RUN apk add imagemagick
   
 COPY . .
 RUN mkdir /nas_a2
