@@ -1,9 +1,5 @@
 #!/bin/bash
 
-apk update
-apk add ffmpeg
-apk add imagemagick
-
 rpcbind
 mount -t nfs 192.168.13.5:/mnt/HD/HD_a2 /nas_a2 -o rw,timeo=600
 
