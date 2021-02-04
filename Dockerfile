@@ -11,6 +11,7 @@ RUN apk add jhead@edge
 RUN apk add nfs-utils
 RUN apk add ffmpeg
 RUN apk add imagemagick
+RUN apk add tzdata
   
 COPY . .
 RUN mkdir /nas_a2
