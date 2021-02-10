@@ -16,4 +16,4 @@ RUN apk add tzdata
 COPY . .
 RUN mkdir /nas_a2
 
-CMD [ "/home/pi/make_site.sh" ]
+CMD [ "/home/pi/run.sh" ]
