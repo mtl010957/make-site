@@ -10,7 +10,7 @@
   "options": {},
   "schema": {},
   "host_network": true,
-  "hassio_role": "admin"
+  "hassio_role": "admin",
   "map": ["config"],
   "environment": {
     "TZ": "US/Michigan"
