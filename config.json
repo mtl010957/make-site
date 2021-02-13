@@ -1,0 +1,17 @@
+{
+  "name": "Make-Site",
+  "version": "0.2",
+  "slug": "make_site",
+  "description": "Maintain web site for camera files on NAS",
+  "arch": ["aarch64"],
+  "url": "https://github.com/mtl010957/make-site",
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "host_network": true,
+  "hassio_role": "admin",
+  "full_access": true,
+  "map": ["config"],
+  "environment": ["TZ=US/Michigan"]
+}
