@@ -5,7 +5,7 @@
   "description": "Maintain web site for camera files on NAS",
   "arch": ["aarch64"],
   "url": "https://github.com/mtl010957/make-site",
-  "startup": "application",
+  "startup": "once",
   "boot": "auto",
   "options": {},
   "schema": {},
@@ -13,5 +13,7 @@
   "hassio_role": "admin",
   "full_access": true,
   "map": ["config"],
-  "environment": ["TZ=US/Michigan"]
+  "environment": {
+    "TZ": "US/Michigan"
+  }
 }
