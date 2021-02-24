@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4] - 2021-02-24
+### Changed
+- Fixed docs to spell out needs to run in privileged mode
+- Clean up cache after build to make image smaller
+
 ## [0.3] - 2021-02-24
 ### Changed
 - Added nolock option to NFS mount to avoid errors due to unknown lock option -e

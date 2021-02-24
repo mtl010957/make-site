@@ -12,6 +12,7 @@ RUN apk add nfs-utils
 RUN apk add ffmpeg
 RUN apk add imagemagick
 RUN apk add tzdata
+RUN rm -rf /var/cache/apk/*
   
 COPY . .
 RUN mkdir /nas_a2
