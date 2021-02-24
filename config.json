@@ -1,6 +1,6 @@
 {
   "name": "Make-Site",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "make_site",
   "description": "Maintain web site for camera files on NAS",
   "arch": ["aarch64"],
