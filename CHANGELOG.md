@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5] - 2021-02-25
+### Changed
+- Put back required role and full access
+
 ## [0.4] - 2021-02-24
 ### Changed
 - Fixed docs to spell out needs to run in privileged mode
