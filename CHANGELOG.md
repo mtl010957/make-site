@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7] - 2021-02-27
+### Changed
+- Run make_site at the end of the loop to avoid run on every start
+
 ## [0.6] - 2021-02-25
 ### Changed
 - Added loop script to run standalone, HA security broke privileged mode for addon
