@@ -35,7 +35,7 @@ do
     echo ${dirname}
     mkdir -p ${dirname}
     echo ${record_time0[$i]}
-    curl -s -k -o ${dirname}/${filename} "$CAM4_URL/livestream.cgi?user=$CAM4_USR&pwd=$CAM4_PWD&streamid=4&filename=${filename}"
+    curl --http0.9 -s -k -o ${dirname}/${filename} "$CAM4_URL/livestream.cgi?user=$CAM4_USR&pwd=$CAM4_PWD&streamid=4&filename=${filename}"
     nice x264 --threads 2 --quiet --no-progress -o ${dirname}/${outfilename} ${dirname}/${filename}
   fi
 done
