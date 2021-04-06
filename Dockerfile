@@ -6,7 +6,6 @@ WORKDIR /home/pi
 COPY repositories /etc/apk
 RUN apk update
   
-RUN apk add x264
 RUN apk add jhead@edge 
 RUN apk add nfs-utils
 RUN apk add ffmpeg
